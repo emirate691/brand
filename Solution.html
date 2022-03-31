@@ -24,11 +24,7 @@
     <div class="wrapper">
     <nav class="navbar" id="navbar-solution">
         <div class="navbar__container">
-            <a href="index.html" id="navbar__logo">
-                <img class="star-1" src="asset/logo/Star 1.png">
-                <img class="star-2" src="asset/logo/Star 2.png">
-                <img class="star-3" src="asset/logo/Star 3.png">
-                <img id="logo-img" src="asset/logo/Vector 21.png">Brander</a>
+           
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -36,22 +32,37 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="solution.html" class="navbar__links">Solutions</a>
+                    <a href="solution.html" class="navbar__links" id="navabr__link">Solutions</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="work.html" class="navbar__links">Work</a>
+                    <a href="work.html" class="navbar__links" id="navabr__link">Work</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="About.html" class="navbar__links">About </a>
+                    <a href="About.html" class="navbar__links" id="navabr__link">About </a>
+                </li>
+                <a href="index.html" id="navbar__logo">
+                    <img class="star-1" src="asset/logo/Star 1.png">
+                    <img class="star-2" src="asset/logo/Star 2.png">
+                    <img class="star-3" src="asset/logo/Star 3.png">
+                    <img id="logo-img" src="asset/logo/Vector 21.png"><span class="brand-logo">Brander</span></a>
+                <li class="navbar__item">
+                    <a href="join.html" class="navbar__links" id="navabr__link">Join</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="join.html" class="navbar__links">Join </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="insight.html" class="navbar__links">Insight</a>
+                    <a href="insight.html" class="navbar__links" id="navabr__link">Insight</a>
                 </li>
                 <li class="navbar__btn">
-                    <button class="button" onclick="myFunction()">Lets Talk</button>
+                    <button class="button" id="solution-chat-btn" onclick="openForm()">Lets Talk</button>
+                    <!--div class="chat-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            <input type="email" placeholder="enter your email" required />
+                            <textarea placeholder="Type message.." name="msg" required></textarea>
+                            <button type="submit" class="btn">Send</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+                        </form>
+                    </div-->
+                    
+
                 </li>
             </ul>
     
@@ -60,23 +71,27 @@
         <!-- /.navabr -->
     
     <div class="with-outstanding-section">
+        <span class="copyright-line">
+            <span class="copy-symbol"> 2<br>0<br>2<br>4<br> &copy </span></span>
+        
         <h2>Creating <span class="ellipse-3"></span>
             <span class="ellipse-4"></span>
-            <span class="product">Products</span> <img src="asset/solution/Vector 25.png">
-            <img src="asset/solution/bud 1.png"> <br>
-            With Outstanding <span class="ellipse-6"></span>
+            <span class="product">Products</span> <img id="vector1" src="asset/solution/Vector 25.png">
+            <img  id="bud-1" src="asset/solution/bud 1.png"> <br>
+           <span class="with-para">  With Outstanding <span class="ellipse-6"></span>
             <span class="ellipse-7"></span>
             <span class="ellipse-8"></span>
-           <span class="visual"> Visual </span><br>
-            and Great <img class="wave" src="asset/solution/Vector 26.png">Functionlity
+           <span class="visual"> Visual </span></span><br>
+            <span class="and-great-para"> and Great <img class="wave" src="asset/solution/Vector 26.png">Functionlity</span>
         </h2>
         <div class="with-outstanding-section-container">
             <div class="with-outstanding-section-content">
                 <p>
-                    DeBrander is a multidisciplinary design agency that</span> <br />combines <strong>design, technology, art</strong> and
+                    <span class="debrander">DeBrander is a multidisciplinary design agency that</span> <br />combines <strong>design, technology, art</strong> and
                     <strong>strategy</strong> to create <br /> state-of-the-art visual identity and experiences.</strong></p>
                 
             </div>
+            <div class="pre-main-contact-us">
             <div class="main-contact-us">
                 
                 <span class="circle">
@@ -125,37 +140,43 @@
                 <p class="twenty-seven">S</p>
             </div>
             </div>
+            
+        </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6" id="contsiner">
+            <div class="col-sm-12 col-md-12 col-lg-12" id="container">
                 <img class="image" src="asset/solution/sylvia 1 (1).png">
-                <span class="ellipse-2">
-                    <p>Recent works<span class="recent-arrow">
-                            <img src="asset/solution/Vector 23.png">
-                        </span></p>
-                </span>
-        
-        
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6" id="container">
-        
-        
-                <div class="rectangle-4">
-                    <p class="cylic">Cylic</p>
+               <div class="ellipse-2">
+                
+                   
+                        
+                        <div class="col-sm-12 col-md-12 col-lg-6" id="container">
+                        <p>Recent works<span class="recent-arrow">
+                                <img src="asset/solution/Vector 23.png">
+                            </span></p>
+                            <div class="rectangle-4">
+                             <p class="cylic">Clic</p>
+                             <p class="cylic-ux1"> UI/UX Design<br> Branding</p>
+                            </div>
+                            <div class="rectangle-41">
+                            <p class="brainmaker">Rrainmaker</p>
+                            <p class="brainmaker-ux">UI/UX Design Branding Development</p>
+                            <p class="read__casestudy">Read Case Study</p>
+                            </div>
+                            <div class="rectangle-411">
+                                <p class="ada">ADA Compliance</p>
+                                <p class="ada-ux1">UI/UX Design Branding</p>
+                            </div>
+                            
+                        
                 </div>
-        
-                <div class="rectangle-5">
-                    <p class="brainmaker">Brainmaker</p>
-                    <p class="brainmaker-ux">UI/UX Design, Branding, Development</p>
-                    <p><a class="brainmaker-link" href="#">Read Case Study</a></p>
-                </div>
-                <div class="rectangle-6">
-                    <p class="cylic">ADA </p>
-                    <p class="cylic-ux">UI/UX Design, Braning</p>
-                </div>
-            </div>
-        
+                         
+             </div>
+                                 
         </div>
+        
+            </div>
+            
         <section class="banner-layout3">
             <div class="container">
                 <div class="row" id="second-section">
@@ -182,11 +203,12 @@
                             <span class="square3"></span>
                             <span class="square4"></span>
         
-                            <br>require <br>to build a <br>products
+                            <br>require <br>to build a <br>products.
                         <p>
                     </div>
                 </div>
             </div>
+            </section>
             <a></a>
         </section>
         </div>
@@ -258,12 +280,19 @@
                 </div>
         </section>
         <section class="fourth-section-layout1">
-            <div class="container">
+            <div class="q   container">
                 <div class="row">
                     <div class="col-sm-12 col-m-6 col-lg-6">
                         <p class="fourth-section-layout1-para">
                             We translate research into solutions, crafting thoughtful and unified brands,
                             apps, websites, interfaces, and systems.<img src="asset/solution/Vector 26.png">
+                            <div class="brookes">
+                                <span class="brooke-cagle-1"></span>
+                                <span class="brooke-cagle-2"></span>
+                                <span class="brooke-cagle-3"></span>
+                                <span class="brooke-cagle-4"></span>
+                                <span class="brooke-cagle-5"></span>
+                            </div>
                         </p>
                     </div>
                 </div>
@@ -273,6 +302,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <img class="brooke-cagle" src="asset/solution/brooke-cagle.png">
+                       
                     </div>
                 </div>
                 <div class="row">
@@ -313,7 +343,7 @@
                             <span class="fifth-layout-circle">
                                 <img class="fifth-layout-forward-arrow" src="asset/solution/Vector 22.png">
                             </span>
-                            <p class="cir-1">G</p>
+                            <!--p class="cir-1">G</p>
                             <p class="cir-2">E</p>
                             <p class="cir-3">T</p>
                             <p class="cir-space-1"></p>
@@ -352,8 +382,56 @@
                             <P class="cir-28">T</P>
                             <P class="cir-29">E</P>
                             <P class="cir-30">D</P>
-                            <P class="cir-space-8"></P>
-        
+                            <P class="cir-space-8"></P-->
+                            
+                        
+                        <p class="one1">G</p>
+                        <p class="two1">E</p>
+                        <p class="three1">T</p>
+                        <p class="space-11"></p>
+                        <p class="four1">S</p>
+                        <p class="five1">T</p>
+                        <p class="six1">A</p>
+                        <p class="seven1">R</p>
+                       
+                        <p class="eight1">T</p>
+                        <p class="nine1">E</p>
+                        <p class="nine11">D</p>
+
+                        
+                        <p class="space11"></p>
+                        <p class="space12"></p>
+                        
+                        <p class="ten1">G</p>
+                        <p class="eleven1">E</p>
+                        <p class="twelve1">T</p>
+                        <p class="space-21"></p>
+                        <p class="thirteen1">S</p>
+                        <p class="fourteen1">T</p>
+                        <p class="fifteen1">A</p>
+                        <p class="sixteen1">R</p>
+                        <p class="seventeen1">T</p>
+                        <p class="eighteen1">E</p>
+                        <P class="eighteen11">D</P>
+                        
+                        <p class="space31"></p>
+                        <p class="space41"></p>
+                        
+                        <p class="nineteen1">G</p>
+                        <p class="twenty1">E</p>
+                        <p class="twenty-one1">T</p>
+                        <p class="space-11"></p>
+                        <p class="twenty-two1">S</p>
+                        <p class="twenty-three1">T</p>
+                        <p class="twenty-four1">A</p>
+                        <p class="twenty-five1">R</p>
+                        <p class="twenty-six1">T</p>
+                        <p class="twenty-seven1">E</p>
+                        <p class="twenty-seven11">D</p>
+
+
+                        <p class="space31"></p>
+                        <p class="space41"></p>
         
                         </div>
                         <img class="fifth-layout-img-2" src="asset/solution/iamge 2.png">
@@ -371,143 +449,164 @@
     
    </section>
 
-   
-   <!--section class="sixth-layout">
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-12 col-md-6 col-lg-6">
-                   <span id="sixth-layout-img"></span>
-                   
-                       <span class="sixth-layout-image"></span>
-                       <span class="line1"></span>
-                        <span class="line2"></span>
-                        <span class="line3"></span>
-                        <span class="line4"></span>
-                        <span class="line5"></span>
-                        <span class="line6"></span>
-                        <span class="line7"></span>
-                   
-               </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h3 class="sixth-layout-header">Join Tech Mates to shape
-                   <span class="sixth-layout-header-1" >experiences of tomorrow</span></h3>
-                    <p class="sixth-layout-para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+   <section class="sixth-layout">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <span id="sixth-layout-img"></span>
+                
+                <span class="sixth-layout-image"></span>
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+                <span class="line4"></span>
+                <span class="line5"></span>
+                <span class="line6"></span>
+                <span class="line7"></span>
+             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h3 class="sixth-layout-header">Join Tech Mates to shape
+                    <span class="sixth-layout-header-1">experiences of tomorrow</span>
+                </h3>
+                <p class="sixth-layout-para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt <br>nostrud amet.</p>
                 <a href="#" id="sixth-layout-btn"> <span class="sixth-layout-btn-content">About us</span></a>
-                </div>
-                
-           </div>
-           <div class="container">
-               <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                       <div class="col-sm-12 col-md-6 col-lg-8">
-                           
-                           <span class="table-line-top"></span>
+            </div>
+         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-sm-12 col-md-6 col-lg-8">
+        
+                        <span class="table-line-top"></span>
                         <span class="table-line-bottom"></span>
                         <span class="table-line-middle"></span>
-                       <p class="sixth-layout-table-para">“I’d highly recommend TheBrander as a web design agency, having worked with them on the design and development of a new
-                    website over the past 3-4 months. From initial brand development and refinement, to the design and implementation of the
-                    statements that it’s can’t be done! ”
-                <img class="sixth-layout-table-para-img" src="asset/solution/icons8-team-FcLyt7lW5wg-unsplash 1.png">
-                        
-                </p>
-               
-                  <p class="sixth-layout-testimonial">Testimonial</p>
-                  <p class="williams-shakesspared">Williams Shakesspared</p>
-                  <p class="founder">- Founder of Being A Company</p>
+                        <p class="sixth-layout-table-para">“I’d highly recommend TheBrander as a web design agency, having
+                            worked with them on the design and development of a new
+                            website over the past 3-4 months. From initial brand development and refinement, to the design and
+                            implementation of the
+                            statements that it’s can’t be done! ”
+                            <img class="sixth-layout-table-para-img"
+                                src="asset/solution/icons8-team-FcLyt7lW5wg-unsplash 1.png">
+        
+                        </p>
+        
+                        <p class="sixth-layout-testimonial">Testimonial</p>
+                        <p class="williams-shakesspared">Williams Shakesspared</p>
+                        <p class="founder">- Founder of Being A Company</p>
                     </div>
-                    
-
-                    
-
-                   </div>
-               </div>
-               <div class="sixth-layout-last-section">
-                   <img id="sixth-layout-zigzag-line" src="asset/solution/Vector.png">
-                   <h3 class="sixth-layout-zigzag-line-header"> Have a project in mind? <br>Let’s get to work.</h3>
-                   <a href="#" id="sixth-layout-zigzag-btn"><span class="sixth-layout-zigzag-btn-detail">Start A Project</span></a>
-
-                 </div>
-           </div>
-           
-
-       </div>
         
-   </section>
-       <div class="footer">
-        <div class="container" >
-            <div class="row" id="footer-content">
-                <div class="col-lg-2 col-sm-4">
-                    <a class="navbar-brand" id="nav-id" href="#">
-                
-                    
-                    <img src="asset/logo/Vector 21.png"> Brander
-                
-                </a></div>
-                <div class="col-lg-2 col-sm-4">
-                    
-                    <ul>
-                        <h4>What we do</h4>
-                        <li class="list1">Home</li>
-                        <li>Work</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
         
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Who we are</h4>
-                        <li>About us</li>
-                        <li>Insight</li>
-                        <li>Join Us</li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Work</h4>
-                        <li>Sendlane</li>
-                        <li>Teacheable</li>
-                        <li>ShipBob</li>
-                        <li>Justuno</li>
-                        <li>Holystock</li>
-                        <li>See all</li>
-                    </ul>
-                </div>
         
-       
-       
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Follow Us</h4>
-                        <li>Dribble</li>
-                        <li>Instagram</li>
-                        <li>Behance</li>
-                        <li>Facebook</li>
-                        <li>Clutch</li>
-                        <li>Twitter</li>
-                        <li>Medium</li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-sm-4">
-                    <img src="asset/solution/Vector (1).png" id="sixth-layout-last-line">
-
-                    <ul>
-                        <h4>Social</h4>
-                        <li><ion-icon class="icon" name="logo-facebook"></ion-icon></li>
-                        <li><ion-icon  class="icon" name="logo-instagram"></ion-icon></li>
-                        <li><ion-icon class="icon" name="logo-twitter"></ion-icon></li>
-                        <li><ion-icon class="icon" name="logo-youtube"></ion-icon></li>
-                        <li><ion-icon class="icon" name="logo-wikipedia"></ion-icon></li>
-                    </ul>
+        
                 </div>
             </div>
+          </div>
+        <div class="sixth-layout-last-section">
+            <img id="sixth-layout-zigzag-line" src="asset/solution/Vector.png">
+            <h3 class="sixth-layout-zigzag-line-header"> Have a project in mind? <br>Let’s get to work.</h3>
+            <a href="#" id="sixth-layout-zigzag-btn"><span class="sixth-layout-zigzag-btn-detail">Start A Project</span></a>
+        
+           
         </div>
-        <hr />
-        <div class="heading text-center mb-40">
-        <p>&copy;2024 Brander Media <span class="line"></span><span class="footer-bottom">All Rights Reserved</span> </p>
+
+      </div>
+    
+   </section> 
+<img class="sixth-layout-last-img" src="asset/solution/Vector (1).png">
+<section class="footer">
+
+    <div class="container">
+        <div class="row" id="footer-content">
+            <div class="col-lg-2 col-sm-4">
+                <a class="navbar-brand" id="nav-id" href="#">
+
+
+                    <img src="asset/logo/Vector 21.png"> Brander
+
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+
+                <ul>
+                    <h4>What we do</h4>
+                    <li class="list1">Home</li>
+                    <li>Work</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-sm-4">
+                <ul>
+                    <h4>Who we are</h4>
+                    <li>About us</li>
+                    <li>Insight</li>
+                    <li>Join Us</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                <ul>
+                    <h4>Work</h4>
+                    <li>Sendlane</li>
+                    <li>Teacheable</li>
+                    <li>ShipBob</li>
+                    <li>Justuno</li>
+                    <li>Holystock</li>
+                    <li>See all</li>
+                </ul>
+            </div>
+
+
+
+            <div class="col-lg-2 col-sm-4">
+                <ul>
+                    <h4>Follow Us</h4>
+                    <li>Dribble</li>
+                    <li>Instagram</li>
+                    <li>Behance</li>
+                    <li>Facebook</li>
+                    <li>Clutch</li>
+                    <li>Twitter</li>
+                    <li>Medium</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+               
+
+                <ul>
+                    <h4>Social</h4>
+                    <li>
+                        <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="icon" name="logo-youtube"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="icon" name="logo-wikipedia"></ion-icon>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div-->
+    </div>
+    <hr />
+    <div class="heading text-center mb-40">
+        <p>&copy;2024 Brander Media <span class="line"></span><span class="footer-bottom">All Rights Reserved</span>
+        </p>
+    </div>
+   
+
+</section>
+                  
+       
+    </div>
     </div>
     
 </body>

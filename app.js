@@ -6,14 +6,14 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active')
 })
 
-var navbarBtn = document.getElementById("#navbar-btn");
-function  showBtn() {
-    navbarBtn.style.right ="0";
-    
+
+
+function openForm() {
+    document.getElementsById("myForm")
+    .style.display ="block";
 }
 
-function  hideBtn() {
-
-    navbarBtn.style.right ="-200px";
-    
+function  closeForm() {
+    document.getElementsById("myForm")
+    .style.display ="none";
 }
