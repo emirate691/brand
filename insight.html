@@ -14,145 +14,128 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <title>Document</title>
+    <title>Brander-insight</title>
 </head>
 <body>
-    <header class="header header-transparent header-layout3">
-        <nav class="navbar navbar-expand-lg sticky-navbar">
-            <div class="container">
-                <a class="navbar-brand" id="nav-id" href="#">
+    <div class="wrapper">
+        <nav class="navbar" id="navbar-insight">
+            <div class="navbar__container">
     
-                    <span class="logo"></span>
-                    Brander
-    
-                </a>
-                <button class="navbar-toggler" type="button">
-                    <span class="menu-lines"><span></span></span>
-                </button>
-                <div class="collapse navbar-collapse" id="mainNavigation">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav__item " id="nav-id">
-                            <a href="Solution.html" class="nav__item-link" id="nav-id">Solutions</a>
-                        </li>
-                        <!-- /.nav-item -->
-                        <!-- /.nav-item -->
-                        <li class="nav__item" ">
-                                <a href=" work.html" class="nav__item-link" id="nav-id">Work</a>
-                        </li>
-                        <!-- /.nav-item -->
-                        <li class="nav__item" id="nav-id">
-                            <a href="About.html" class="nav__item-link" id="nav-id">About Us</a>
-                        </li>
-                        <!-- /.nav-item -->
-    
-                        <li class="nav__item" id="nav-id">
-                            <a href="join.html" class="nav__item-link" id="nav-id">Join Us</a>
-                        </li>
-                        <!-- /.nav-item -->
-                        <li class="nav__item" id="nav-id">
-                            <a href="insight.html" class="nav__item-link" id="nav-id">Insight</a>
-                        </li>
-                        <!-- /.nav-item -->
-    
-                    </ul>
-                    <!-- /.navbar-nav -->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <!-- /.navbar-collapse -->
-                <ul class="header-actions__list list-unstyled d-flex align-items-center mb-0">
-                    <li>
-                        <a href="#" class="btn btn__ header__btn__sm" id="chat">Lets Talk</a>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="solution.html" class="navbar__links" id="navabr__link">Solutions</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="work.html" class="navbar__links" id="navabr__link">Work</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="About.html" class="navbar__links" id="navabr__link">About </a>
+                    </li>
+                    <a href="index.html" id="navbar__logo">
+                        <img class="star-1" src="asset/logo/Star 1.png">
+                        <img class="star-2" src="asset/logo/Star 2.png">
+                        <img class="star-3" src="asset/logo/Star 3.png">
+                        <img id="logo-img" src="asset/logo/Vector 21.png"><span class="brand-logo">Brander</span></a>
+                    <li class="navbar__item">
+                        <a href="join.html" class="navbar__links" id="navabr__link">Join</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="insight.html" class="navbar__links" id="navabr__link">Insight</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <button class="button" id="solution-chat-btn" onclick="openForm()">Lets Talk</button>
+                        <!--div class="chat-popup" id="myForm">
+                            <form action="/action_page.php" class="form-container">
+                                <input type="email" placeholder="enter your email" required />
+                                <textarea placeholder="Type message.." name="msg" required></textarea>
+                                <button type="submit" class="btn">Send</button>
+                                <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+                            </form>
+                        </div-->
+    
     
                     </li>
-    
                 </ul>
-                <!-- /.actions__list -->
-            </div>
-            <!-- /.container -->
+    
+    
         </nav>
         <!-- /.navabr -->
-    </header>
+        <div class="first-insight-section">
+            <h2>Build <span class="dot">.</span> <strong>Grow</strong><span class="dot">.</span></h2>
+            <h2 class="second-heading">Serve<span class="dot">.</span></h2>
+            <p>We shape the products and services that improve <br>the lives of thousands every single day.</p>
 
-    <div class="footer">
-        <div class="container">
-            <div class="row" id="footer-content">
-                <div class="col-lg-2 col-sm-4 ">
-                    <a class="navbar-brand" id="nav-id" href="#">
-    
-                        <span class="logo"></span>
-                        Brander
-    
-                    </a>
-                </div>
-                <div class="col-lg-2 col-sm-4">
-    
-                    <ul>
-                        <h4>What we do</h4>
-                        <li>Home</li>
-                        <li>Work</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-    
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Who we are</h4>
-                        <li>About us</li>
-                        <li>Insight</li>
-                        <li>Join Us</li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Work</h4>
-                        <li>Sendlane</li>
-                        <li>Teacheable</li>
-                        <li>ShipBob</li>
-                        <li>Justuno</li>
-                        <li>Holystock</li>
-                        <li>See all</li>
-                    </ul>
-                </div>
-    
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Follow Us</h4>
-                        <li>Dribble</li>
-                        <li>Instagram</li>
-                        <li>Behance</li>
-                        <li>Facebook</li>
-                        <li>Clutch</li>
-                        <li>Twitter</li>
-                        <li>Medium</li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-sm-4">
-                    <ul>
-                        <h4>Social</h4>
-                        <li>
-                            <ion-icon class="icon"  name="logo-facebook"></ion-icon>
-                        </li>
-                        <li>
-                            <ion-icon  class="icon" name="logo-instagram"></ion-icon>
-                        </li>
-                        <li>
-                            <ion-icon class="icon" name="logo-twitter"></ion-icon>
-                        </li>
-                        <li>
-                            <ion-icon class="icon" name="logo-youtube"></ion-icon>
-                        </li>
-                        <li>
-                            <ion-icon class="icon" name="logo-wikipedia"></ion-icon>
-                        </li>
+            <div class="row">
+                <div class="sm-col-12 col-md-6 col-lg-6">
+                    <p class="image-1-para">We uncover insights and <br> shape brands through a <br>process of exploration <br>and investigation.</p>
 
-                    </ul>
+                    <img id="image-1" src="asset/insight/medium-shot (2).png">
+                    <span class="image-1-bottom"><img id="logo-img-1" src="asset/logo/Vector 21.png"><span class="brand-logo">Brander</span>
+                                  </div>
+                <div class="sm-col-12 col-md-6 col-lg-6">
+                    <p class="image-2-para">We design to simplify. <br>We are fostering a human-<br>centric ideology to <br>achieve lasting solutions.
+                    </p>
+                    <img id="image-2" src="asset/insight/medium-shot (3).png">
+                    <span class="image-2-bottom"><img id="logo-img-2" src="asset/logo/Vector 21.png"><span class="brand-logo">Brander</span>
+                    
                 </div>
             </div>
+            <div class="row">
+                <div class="sm-col-12 col-md-6 col-lg-6">
+                    <p class="image-1-para2">Backed by modern <br>technologies. We build <br>products that improve functionality, stay reliable,<br> and evolve with time.</p>
+            
+                    <img id="image-3" src="asset/insight/medium-shot (1).png">
+                    <span class="image-1-bottom1"><img id="logo-img-3" src="asset/logo/Vector 21.png"><span
+                            class="brand-logo">Brander</span>
+                </div>
+                <div class="sm-col-12 col-md-6 col-lg-6">
+                    <p class="image-2-para3">Like the world around us <br>and the businesses we<br> work with, our design<br> practice is always striving<br> to improve.
+                    </p>
+                    <img id="image-4" src="asset/insight/medium-shot (4).png">
+                    <span class="image-2-bottom2"><img id="logo-img-4" src="asset/logo/Vector 21.png"><span
+                            class="brand-logo">Brander</span>
+            
+                </div>
+            </div>
+
+
         </div>
-        <hr />
-        <div class="heading text-center mb-40">
-        <p>&copy;2024 Brander Media <span class="line"></span><span class="footer-bottom">All Rights Reserved</span> </p>
-        </div>
-    </div>
+
+
+        <section class="second-insight-section">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2>Building amazing <br>SaaS websites.</h2>
+                    <p>We offer package solutions to help fast-<br>growing SaaS companies scale up their <br>website in line with their expanding<br>
+                    workforce and customer base.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="asset/insight/it's-not.png">
+                    
+                    <img id="frame-1" src="asset/insight/Frame 1.png">
+                
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img id="img-2" src="asset/insight/image 13.png">
+                       
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>Brand identities <br>that last.</p>
+                    <p class="para-2"> Via educated strategies and standout<br> visual identity design, we can expand <br>your digital reach and help you create <br>
+                    lasting bonds with your customers.</p>
+                
+                </div>
+            </div>
+            
+        </section>
 </body>
 </html>
